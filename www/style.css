@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f2efe7 url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1500&q=60') no-repeat center/cover fixed;
+    backdrop-filter: blur(2px);
+}
+
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: rgba(255,255,255,0.88);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border: 1px solid #dcd7c9;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4a5a3c;
+    letter-spacing: 1px;
+}
+
+.button {
+    background: #6f8f53;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #516c3a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #6f8f53;
+    color: white;
+    padding: 10px;
+    border-radius: 4px 4px 0 0;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 10px 14px;
+    background: #6f8f53;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #516c3a;
+}
+
+.delete {
+    color: #b52626;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.delete:hover {
+    text-decoration: underline;
+}
